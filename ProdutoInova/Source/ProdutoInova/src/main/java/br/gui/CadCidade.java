@@ -46,6 +46,7 @@ public class CadCidade extends javax.swing.JInternalFrame {
 
         jLabel2.setText("Nome");
 
+        jButton1.setBackground(new java.awt.Color(255, 0, 0));
         jButton1.setText("Salvar novo");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -53,6 +54,7 @@ public class CadCidade extends javax.swing.JInternalFrame {
             }
         });
 
+        jButton2.setBackground(new java.awt.Color(255, 0, 0));
         jButton2.setText("Consultar");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

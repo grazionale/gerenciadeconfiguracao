@@ -36,8 +36,11 @@ public class Principal extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jToolBar2.setBackground(new java.awt.Color(255, 0, 0));
         jToolBar2.setRollover(true);
 
+        jButton1.setBackground(new java.awt.Color(255, 0, 0));
+        jButton1.setForeground(new java.awt.Color(255, 0, 0));
         jButton1.setText("Cadastro de cidade");
         jButton1.setFocusable(false);
         jButton1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -49,6 +52,8 @@ public class Principal extends javax.swing.JFrame {
         });
         jToolBar2.add(jButton1);
 
+        JCustomer.setBackground(new java.awt.Color(255, 0, 0));
+        JCustomer.setForeground(new java.awt.Color(255, 0, 0));
         JCustomer.setText("                                     Cliente não identificado");
         jToolBar2.add(JCustomer);
 
